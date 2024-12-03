@@ -1,0 +1,1 @@
+Express JS Server with some basic functionalities
