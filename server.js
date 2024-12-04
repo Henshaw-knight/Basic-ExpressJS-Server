@@ -6,7 +6,7 @@ const app = express();
 
 // Homepage route
 app.get('/', (req, res) => {
-    res.send('Welcome to express');
+    res.send('Welcome to Express');
 });
 
 // About route
@@ -17,7 +17,7 @@ app.get('/about', (req, res) => {
 // Working with parameters
 app.get('/greet/:name', (req, res) => {
     const name = req.params.name;
-    res.send(`Hello ${name}`);
+    res.send(`Hello, ${name}!`);
 });
 
 // Creating JSON API
